@@ -1,0 +1,135 @@
+:root{
+    --first-color:#0c2b40;
+    --second-color:#ffffff;
+    --third-color:#0fb8ce;
+    --fourth-color:#253947;
+    --fourth-color:#000000;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* font-family: "Bitter", serif; */
+    font-family: "Inter", sans-serif;
+    background-color:var(--first-color);
+   font-size: 14px;
+}
+/* --------logo----------- */
+.header{
+    padding: 50px 0;
+    padding-left: 70px;
+}
+
+.logo_section1{
+    display: flex;
+    gap: 50px;
+}
+
+.logo_section1 .image_header img{
+    width: 604.4px;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+}
+.logo_section1 .logo_header .logo{
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+.logo_section1 .logo_header .logo img{
+    width:70px;
+    height: 100%;
+    padding-right: 20px;
+
+}
+.logo_section1 .logo_header .logo h2{
+    font-size:20px;
+    font-family: "Lora", serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    width:250px;
+    color: var(--second-color);
+
+}
+
+.logo_section1 .logo_header .paragr {
+    font-size:40px;
+    width:100%;
+}
+.logo_section1 .logo_header .paragr h1{
+    font-family: "Raleway", serif;
+    font-weight: 300;
+    color:var(--third-color);
+    padding-bottom: 50px;
+}
+
+.logo_section1 .logo_header .paragr .button-logo{
+
+    font-weight: 200;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 60px;
+    border-radius: 50px;
+    border: 1px solid var(--third-color);
+    transition: 0.5s;
+    background: inherit;
+    color: var(--third-color);
+    cursor: pointer;
+}
+
+/* ---------who i am-------------- */
+.intro {
+    position: relative;
+    background-image: url('/assets/photo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(12, 43, 64, 0.7); 
+}
+
+.intro .who-i-am {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;    
+}
+
+.intro .who-i-am h1 {
+    font-family: "Lora", serif;
+    font-weight: 100;
+    color: var(--third-color);
+    margin-bottom: 30px;
+    font-size: 55px;
+}
+
+.intro .who-i-am p {
+    font-family: "Lora", serif;
+    font-weight: 300;
+    line-height: 1.7;
+    font-size: 19px;
+    color: var(--second-color);
+    
+
+ 
+}
